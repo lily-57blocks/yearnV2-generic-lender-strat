@@ -1,7 +1,6 @@
 import pytest
 from brownie import Wei, config
 
-
 @pytest.fixture
 def live_strat_usdc_1(Strategy):
     yield Strategy.at("0xB7e9Bf9De45E1df822E97cA7E0C3D1B62798a4e0")
